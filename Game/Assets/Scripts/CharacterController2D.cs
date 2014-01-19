@@ -371,4 +371,22 @@ public class CharacterController2D : MonoBehaviour
 			collisionState.becameGroundedThisFrame = true;
 	}
 
+
+
+
+
+
+
+    void OnCollisionEnter2D(Collision2D c)
+    {
+        if(c.gameObject.name == "Quad_movable"){
+            c.rigidbody.AddForce(new Vector2(0.5f, 0.0f));
+        }
+        
+    }
 }
+
+
+
+
+

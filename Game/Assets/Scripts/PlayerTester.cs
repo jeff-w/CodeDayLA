@@ -2,8 +2,7 @@
 using System.Collections;
 
 
-public class PlayerTester : MonoBehaviour
-{
+public class PlayerTester : MonoBehaviour{
 	// movement config
 	public float gravity = -15f;
 	public float runSpeed = 8f;
